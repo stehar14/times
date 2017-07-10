@@ -78,3 +78,19 @@ header p {
   color: MediumAquamarine;
   margin: auto auto auto 10px;
 }
+
+.overlay.main {
+  font-size: 40px;
+}
+ .content {
+   font-family: Georgia;
+  font-size: 17px;
+  color: black;
+ }
+
+.overlay {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
