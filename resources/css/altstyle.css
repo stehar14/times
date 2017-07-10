@@ -1,0 +1,101 @@
+div {
+  border: 1px solid black;
+}
+/*header*/
+.header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.logo span {
+  display: inline;
+  color: MediumAquamarine;
+  padding-left: 10px;
+}
+
+.nav {
+  margin-right: 20px;
+}
+
+.nav span a {
+  display: inline-block;
+  padding: 0 10px;
+  color: black;
+}
+/*main container*/
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.large {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+}
+
+.medium {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.small {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+.image {
+  display: flex;
+}
+
+.content {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.overlay {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  font-size: 40px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+}
+
+.lesser {
+  display: flex;
+}
+
+.lesser.story {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
