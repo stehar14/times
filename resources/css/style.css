@@ -9,12 +9,62 @@ header {
   border-bottom: 1px solid black;
 }
 
+.article {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.large {
+  width: 630px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  border: 1px solid black;
+  margin: 0px auto;
+}
+
+.medium {
+  width: 300px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.small {
+  width: 240px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.large.column {
+  border: 1px solid black;
+  margin: 0 20px 0 0;
+}
+
+.medium.column {
+  border: 1px solid black;
+  margin: 0 20px 0 20px;
+}
+
+.column {
+  border: 1px solid black;
+}
+
+.small.column {
+  border: 1px solid black;
+  margin: 0 0 0 20px;
+}
+
 a {
   color: black;
 }
 
-
-header nav li {
+header nav span {
   display: inline-block;
   padding: 10px;
 }
