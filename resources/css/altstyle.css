@@ -86,16 +86,21 @@ div {
   font-size: 40px;
 }
 
-.story {
+.substories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stories {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
-.lesser {
-  display: flex;
+.substories .story {
+  max-width: 300px;
 }
 
-.lesser.story {
-  flex-direction: row;
-  flex-wrap: wrap;
+.picture {
+  max-width: 300px;
 }
